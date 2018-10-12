@@ -1,0 +1,96 @@
+/* Global Styles */
+
+body {
+  margin: 5mm 5mm 5mm 5mm;
+  background-color: #fff;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+/* Styles Encabezado */
+.encabezado h4{
+    margin: 2mm 2mm 2mm 2mm;
+    text-align: center;
+}
+
+
+#logo{
+    height:50px;
+    width:40px;
+    float:right;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    margin-left: 0px; 
+}
+#logo img {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    width: 75px; height: 75px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+/* Styles Tabla Nomina */
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 0px solid black;
+}
+
+table {
+    border:0px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    height: 5px;
+}
+td {
+    height: 10px;
+    vertical-align: bottom;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+
+}
+
+tr:hover {background-color: #2194C6}
+
+tr:nth-child(even) {background-color: #f2f2f2}
+
+th {
+    background-color: #2194C6;
+    color: white;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 60px; height: 70px;
+}

@@ -1,0 +1,11 @@
+.errores{
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		-o-box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		background: red;
+		box-shadow: 0 0 10px rgba(0,0,0,0.3);
+		color: #fff;
+		display: none;
+		font-size: 14px;
+		
+	}
