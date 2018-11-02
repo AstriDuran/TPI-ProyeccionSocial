@@ -21,6 +21,7 @@ class CreateDetallepedidoTable extends Migration
             $table->integer('idproducto')->unsigned();
             $table->foreign('idproducto')->references('idproducto')->on('producto');
             $table->integer('cantidad');
+            $table->float('subtotal')->nullable();
             $table->float('descuento')->nullable();
             $table->float('precioventa');
     

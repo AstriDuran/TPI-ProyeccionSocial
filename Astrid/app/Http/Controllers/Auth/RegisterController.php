@@ -85,12 +85,12 @@ class RegisterController extends Controller
 
          return $key;
     }
-
-    function Email($dates,$email){
+function Email($dates,$email)
+    {
       Mail::send('email.plantilla_email',$dates, function($message) use ($email){
         $message->subject('Bienvenido a la plataforma');
         $message->to($email);
-        $message->from('ial3.ingenieria.en.alimentos@gmail.com','Creaciones Artisticas');
+        $message->from('prodive2018@gmail.com','PRODIVE');
       });
     }
 } 

@@ -46,10 +46,7 @@
 
         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
 
-            <div class="form-group">
-              <label for="direccion" class="col-md-5 control-label">Direccion</label>
-                <input type="text" name="direccion"  value="{{old('direccion')}}" class="form-control" placeholder="Direccion...">
-            </div>
+            
 
             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
               <label for="email" class="col-md-5 control-label" >Email</label>

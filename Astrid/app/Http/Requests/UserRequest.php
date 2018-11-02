@@ -33,7 +33,7 @@ class UserRequest extends FormRequest
                     'nombre'=>'required|max:30', 
                     'apellido'=>'required|max:30',
                     'telefono'=>'required|max:8|min:8|unique:users',
-                    'direccion'=>'required|max:250',   
+                       
                     'email'=>'required|email|unique:users', 
                     'password'=>'required|min:6',
                     'password_confirmation'=>'required|same:password',
@@ -47,7 +47,7 @@ class UserRequest extends FormRequest
                     'nombre'=>'required|max:30', 
                     'apellido'=>'required|max:30',
                     'telefono'=>'required|max:8|min:8|unique:users,telefono,'.$this->get('id'),
-                    'direccion'=>'required|max:250',   
+                       
                     'email'=>'required|email|unique:users,email,'.$this->get('id'),
                     'password'=>'required|min:6',
                     'password_confirmation'=>'required|same:password',

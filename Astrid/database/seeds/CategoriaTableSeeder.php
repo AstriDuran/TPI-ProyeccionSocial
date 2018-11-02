@@ -16,26 +16,26 @@ class CategoriaTableSeeder extends Seeder
         $now = Carbon::now()->toDateTimeString();
 
         Category::insert([
-            ['nombre' => 'Artículos  de Oficina', 
-             'descripcion' => 'Productos de madera decorados para la oficina.',
+            ['nombre' => 'Confecciones', 
+             'descripcion' => 'Productos confeccionados.',
              'estado' => '1',
              'created_at' => $now, 
              'updated_at' => $now
          	],
-         	['nombre' => 'Artículos Decorativos', 
-             'descripcion' => 'Productos decorativos elaborados en pintura artística y con arena',
+         	['nombre' => 'Marroquineria', 
+             'descripcion' => 'Productos de cuero.',
              'estado' => '1',
              'created_at' => $now, 
              'updated_at' => $now
          	],
-         	['nombre' => 'Artículos de Cocina', 
-             'descripcion' => 'Productos son elaborados en pintura artística.',
+         	['nombre' => 'Serigrafia', 
+             'descripcion' => 'Estampados en todo tipo de material.',
              'estado' => '1',
              'created_at' => $now, 
              'updated_at' => $now
          	],
-         	['nombre' => 'Artículos Utilitarios', 
-             'descripcion' => 'Productos utilitarios de pintura artística',
+         	['nombre' => 'Acrilico', 
+             'descripcion' => 'Productos de acrilico',
              'estado' => '1	',
              'created_at' => $now, 
              'updated_at' => $now

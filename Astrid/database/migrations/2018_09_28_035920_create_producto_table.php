@@ -23,7 +23,6 @@ class CreateProductoTable extends Migration
             $table->string('detalles')->nullable();
             $table->string('foto')->nullable();
             $table->float('precio');
-            $table->integer('stock');
             $table->integer('estado')->default(0);
             $table->timestamps();
         });

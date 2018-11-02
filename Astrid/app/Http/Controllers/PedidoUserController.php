@@ -30,7 +30,7 @@ class PedidoUserController extends Controller
         ->select('us.id',DB::raw("CONCAT(nombre,' ',apellido) as nombre"),'us.telefono','p.idpedido','p.direccion','p.fechaentrega','p.horaentrega','p.estado')
         ->where('us.id','=',$id)
         ->orderBy('p.estado')
-        ->paginate(5);
+        ->paginate(7);
 
         return view('perfil_usuario.pedidos',["pedidos"=>$pedidos]);
        

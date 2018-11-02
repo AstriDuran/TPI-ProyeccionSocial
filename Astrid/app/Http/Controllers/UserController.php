@@ -56,7 +56,6 @@ class UserController extends Controller
       $user->apellido=$request->get('apellido');
       $user->password=bcrypt($request->get('password')); 
       $user->telefono=$request->get('telefono');
-      $user->direccion=$request->get('direccion');
       $user->email=$request->get('email');
       $user->active='1';
       $user->save();

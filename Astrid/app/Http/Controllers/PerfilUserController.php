@@ -50,7 +50,7 @@ class PerfilUserController extends Controller
             'password' =>bcrypt($request->get('password')), 
             'email' =>$request->get('email'),
             'telefono' =>$request->get('telefono'),
-            'direccion' =>$request->get('direccion'),
+            
             'avatar'=>Carbon::now()->second.$file->getClientOriginalName()]);
 
         }else{
@@ -61,7 +61,7 @@ class PerfilUserController extends Controller
             'password' =>bcrypt($request->get('password')),
             'email' =>$request->get('email'),
             'telefono' =>$request->get('telefono'),
-            'direccion' =>$request->get('direccion')]);
+            ]);
         }
 
         Session::flash('store','¡Sus datos han sido actualizados!');

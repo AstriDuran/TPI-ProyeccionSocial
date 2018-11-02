@@ -19,7 +19,7 @@
     <body>
         <header class="with-background">
             <div class="top-nav container">
-                <div class="logo">Lo Mejor en Artesanias.</div>
+                <div class="logo">Lo Mejor en Artículos Diversos.</div>
                 
                 @if (! request()->is('checkout'))
                 <ul>
@@ -60,8 +60,8 @@
             </div> <!-- end top-nav -->
             <div class="hero container">
                 <div class="hero-copy">
-                    <h1>Creaciones Artisticas.</h1>
-                    <p>Empresa de artesanías en plumas, lienzo, madera con relieve de arena y paisajes pintados a mano y con diseños únicos.</p>
+                    <h1>Productos Diversos.</h1>
+                    <p>Empresa dedicada a la elaboración de productos promocionales para tu empresa con la mejor calidad, personalizados segun tus necesidades.</p>
                 </div> <!-- end hero-copy -->
 
                 <div class="hero-image">
@@ -111,7 +111,7 @@
                 <div class="text-center button-container">
                     <a href="{{ route('shop.index') }}" class="button">Ver más productos</a>
                 </div>
-
+            <!--
                 <h1 class="text-center">From Our Blog</h1>
 
                 <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore vitae nisi, consequuntur illum dolores cumque pariatur quis provident deleniti nesciunt officia est reprehenderit sunt aliquid possimus temporibus enim eum hic.</p>
@@ -132,7 +132,7 @@
                         <a href="#"><h2 class="blog-title">Blog Post Title 3</h2></a>
                         <div class="blog-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, tenetur numquam ipsam reiciendis.</div>
                     </div>
-                </div>
+                </div>-->
             </div> <!-- end container -->
         </div> <!-- end blog-section -->
 

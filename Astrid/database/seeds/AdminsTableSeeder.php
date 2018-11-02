@@ -15,7 +15,7 @@ class AdminsTableSeeder extends Seeder
             'name' =>'Lorena Duran',
             'email'=>'administrador@gmail.com',
             'password'=>\Hash::make('admin01'),
-            'telefono'=>'71255896',
+            'telefono'=>'71858873',
             'avatar' =>'admin_default.png',
             'active' =>'1',
         	));

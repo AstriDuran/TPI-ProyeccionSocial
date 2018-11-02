@@ -59,7 +59,7 @@
                   <ul class="dropdown-menu">
                     <!-- User image -->
                     <li class="user-header">
-                        <p> Creaciones Artristicas </p>
+                        <p> Productos Diversos </p>
                         <img src="{{asset('img/users/'.Auth::user()->avatar)}}" alt="{{Auth::user()->username}}"  class="img-thumbnail">
                     </li>
                     

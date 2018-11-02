@@ -1,6 +1,6 @@
 <footer>
     <div class="footer-content container">
-        <div class="made-with">Made with <i class="fa fa-heart heart"></i> by Lorena Duran</div>
+        <div class="made-with">Made with <i class="fa fa-heart heart"></i> by Grupo# </div>
         <ul>
             <li>Follow Me: </li>
             <li><a href="https://www.google.com"><i class="fa fa-globe"></i></a></li>

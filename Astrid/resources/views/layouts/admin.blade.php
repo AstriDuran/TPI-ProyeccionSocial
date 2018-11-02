@@ -59,7 +59,7 @@
                   <ul class="dropdown-menu">
                     <!-- User image -->
                     <li class="user-header">
-                        <p> Creaciones Artristicas </p>
+                        <p> Productos Diversos </p>
                         <img src="{{asset('img/admins/'.Auth::user()->avatar)}}" alt="{{Auth::user()->name}}"  class="img-thumbnail">
                     </li>
                     
@@ -99,7 +99,7 @@
               
               <li class="treeview">
                 <a href="#">
-                  <i class="fa fa-laptop"></i>
+                  <i class="fa fa-clone"></i>
                   <span>Categorias</span>
                   <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -135,7 +135,7 @@
 
                <li class="treeview">
                 <a href="#">
-                  <i class="fa fa-th"></i>
+                  <i class="fa fa-plus"></i>
                   <span>Pedidos</span>
                    <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -146,7 +146,7 @@
 
                <li class="treeview">
                 <a href="#">
-                  <i class="fa fa-th"></i>
+                  <i class="fa fa-users"></i>
                   <span>Usuarios</span>
                    <i class="fa fa-angle-left pull-right"></i>
                 </a>
@@ -158,7 +158,7 @@
                          
               <li class="treeview">
                 <a href="#">
-                  <i class="fa fa-folder"></i> <span>Administradores</span>
+                  <i class="fa fa-user"></i> <span>Administradores</span>
                   <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu"> 
@@ -182,7 +182,7 @@
                     <div class="box">
                   
                         <div class="box-header with-border">
-                          <h3 class="box-title">Sistema de Pedidos</h3>
+                          <h3 class="box-title">Sistema de Gestión y Administación de Productos Diversos PRODIVE</h3>
                           <div class="box-tools pull-right">
                             <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
                             

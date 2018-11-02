@@ -87,7 +87,7 @@ class ProductoController extends Controller
         if(Input::hasfile('foto')){
             
             $file=Input::file('foto');
-            $producto=Producto::findOrFail($id);
+            $producto=Product::findOrFail($id);
             $fotovieja=$producto->FOTO;
             if(is_file(public_path().'/img/productos/'.$fotovieja)){
                 unlink(public_path().'/img/productos/'.$fotovieja);

@@ -15,8 +15,8 @@
             </div>
             @endif
              
-            <div class="panel panel-primary">
-                <div class="panel-heading">ADMINISTRADOR Login</div>
+            <div class="panel panel-default" style="border-color: black;">
+                <div class="panel-heading" style="color:white; border-color:black; background:black;" >ADMINISTRADOR Login</div>
                 <div class="panel-body">
                     <form class="form-horizontal" role="form" method="POST" action="{{ route('admin.login.submit') }}">
                         {{ csrf_field() }}

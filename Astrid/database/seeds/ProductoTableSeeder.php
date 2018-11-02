@@ -15,13 +15,13 @@ class ProductoTableSeeder extends Seeder
         for ($i = 1; $i <= 5; $i++) {
             Product::create([
                 'idcategoria' => 1,
-                'codigo' => 'CA-PO-PA-00' . $i,
-                'nombre' => 'Calendario ' . $i,
+                'codigo' => 'CA-ES-CO-190' . $i,
+                'nombre' => 'Camiseta de color estampada ' . $i,
                	'descripcion' => 'Descripcion producto N° ' . $i,
-                'detalles' => 'Medidas'. [5, 6, 7][array_rand([13, 14, 15])] . ' X ' . [5, 6, 7][array_rand([1, 2, 3])] . 'cm',
+                'detalles' => 'Medidas 190 GR',
                 'foto' => 'Calendario ' . $i. '.png',
-                'precio' => rand(150, 999),
-                'stock' => 1,
+                'precio' => '3.50',
+                
                 'estado' => 1,
               
             ]);
@@ -36,7 +36,7 @@ class ProductoTableSeeder extends Seeder
                 'detalles' => 'Medidas'. [5, 6, 7][array_rand([13, 14, 15])] . ' X ' . [5, 6, 7][array_rand([1, 2, 3])] . 'cm',
                 'foto' => 'Baeta Cuadrada ' . $i. '.png',
                 'precio' => rand(150, 999),
-                'stock' => 1,
+                
                 'estado' => 1,
               
             ]);
@@ -51,7 +51,7 @@ class ProductoTableSeeder extends Seeder
                 'detalles' => 'Medidas'. [5, 6, 7][array_rand([13, 14, 15])] . ' X ' . [5, 6, 7][array_rand([1, 2, 3])] . 'cm',
                 'foto' => 'Caja para Te ' . $i. '.png',
                 'precio' => rand(150, 999),
-                'stock' => 1,
+                
                 'estado' => 1,
               
             ]);
@@ -66,7 +66,7 @@ class ProductoTableSeeder extends Seeder
                 'detalles' => 'Medidas'. [5, 6, 7][array_rand([13, 14, 15])] . ' X ' . [5, 6, 7][array_rand([1, 2, 3])] . 'cm',
                 'foto' => 'Juego de Cofres ' . $i. '.png',
                 'precio' => rand(150, 999),
-                'stock' => 1,
+                
                 'estado' => 1,
               
             ]);
