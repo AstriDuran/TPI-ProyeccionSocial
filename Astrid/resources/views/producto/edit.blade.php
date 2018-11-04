@@ -15,7 +15,7 @@
             <label for="foto"> Foto Producto </label>
             <input type="file" name="foto" class="form-control">
                @if(($producto->foto)!=" ")
-                  <img class="img-thumbnail" src="{{asset('img/productos/'.$producto->foto)}}" alt="{{$producto->nombreproducto}}" height="110px" width="110px">
+                  <img class="img-thumbnail" src="{{asset('img/productos/'.$producto->foto)}}" alt="{{$producto->nombre}}" height="110px" width="110px">
                @endif
          </div>
          

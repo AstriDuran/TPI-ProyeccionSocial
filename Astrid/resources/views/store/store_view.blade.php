@@ -23,7 +23,8 @@
             <h3>Categorias</h3>
             <ul>
                 @foreach ($categorias as $cat)
-                    <li><a href="{{url('/categoria/'.$cat->idcategoria)}}" class="list-group-item"> {{$cat->nombre}}</a></li>
+                   <!-- <li><a href="{{url('/categoria/'.$cat->idcategoria)}}" class="list-group-item"> {{$cat->nombre}}</a></li>-->
+                    <li><a href="{{url('/mostrar/categoria/'.$cat->idcategoria)}}" class="list-group-item"> {{$cat->nombre}}</a></li>
                 @endforeach
             </ul>
         </div> <!-- end sidebar -->

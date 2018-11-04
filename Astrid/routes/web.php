@@ -72,7 +72,8 @@ Route::resource('/usuario','UserController');
 Route::get('/inicio','HomePageController@index')->name('inicio');
 Route::get('/shop','StoreController@index')->name('shop.index');
 Route::get('/shop/{product}', 'StoreController@show')->name('shop.show');
-Route::get('/categoria/{id}','StoreController@mostrarCategoria');
+//Route::get('/categoria/{id}','StoreController@mostrarCategoria');
+Route::get('/mostrar/categoria/{id}','StoreController@mostrarCategoria');
 Route::get('/shop/oferta','StoreController@mostraroferta');
 
 
