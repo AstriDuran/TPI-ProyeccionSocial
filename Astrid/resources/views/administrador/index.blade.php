@@ -18,7 +18,7 @@
 					<th>Id</th>
 					<th>Avatar</th>
 					<th>Nombre</th>
-					<th>Telefono</th>
+					<th>Teléfono</th>
 					<th>Email</th>
 					<th>Opciones</th>
 				</thead>

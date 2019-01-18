@@ -32,7 +32,7 @@
             <div class="products-header">
                 <h1 class="stylish-heading">{{$nombreCategoria}}</h1>
                 <div>
-                    <strong>Price: </strong>
+                    <strong>Precio: </strong>
                     <a href="{{ route('shop.index', ['ordenar' => 'low_high']) }}">Bajo a Alto</a> 
                     |<a href="{{ route('shop.index', ['ordenar' => 'high_low']) }}">Alto a Bajo</a>
 

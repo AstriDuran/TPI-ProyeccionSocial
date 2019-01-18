@@ -100,12 +100,12 @@
               <li class="treeview">
                 <a href="#">
                   <i class="fa fa-clone"></i>
-                  <span>Categorias</span>
+                  <span>Categorías</span>
                   <i class="fa fa-angle-left pull-right"></i>
                 </a>
                 <ul class="treeview-menu">
-                  <li><a href="{{url('/categoria/create')}}"><i class="fa fa-circle-o"></i> Nueva Categoria</a></li>
-                  <li><a href="{{url('/categoria')}}"><i class="fa fa-circle-o"></i> Gestionar Categorias</a></li>
+                  <li><a href="{{url('/categoria/create')}}"><i class="fa fa-circle-o"></i> Nueva Categoría</a></li>
+                  <li><a href="{{url('/categoria')}}"><i class="fa fa-circle-o"></i> Gestionar Categorías</a></li>
                 </ul>
               </li>
               

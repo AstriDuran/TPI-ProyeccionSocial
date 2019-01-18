@@ -29,7 +29,7 @@
             </div>
 
             <div class="form-group{{ $errors->has('telefono') ? ' has-error' : '' }}">
-                <label for="telefono" class="col-md-4 control-label">Telefono</label>
+                <label for="telefono" class="col-md-4 control-label">Teléfono</label>
                     <input id="telefono" type="text" class="form-control" name="telefono" value="{{$admin->telefono}}" placeholder="Telefono...">
             </div>
 

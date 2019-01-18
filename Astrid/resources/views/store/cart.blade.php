@@ -32,7 +32,7 @@
 
             @if (Cart::count() > 0)
 
-            <h2>{{ Cart::count() }} Articulo(s) en el Carrito</h2>
+            <h2>{{ Cart::count() }} Artículo(s) en el Carrito</h2>
 
             <div class="cart-table">
                 @foreach (Cart::content() as $item)
@@ -130,7 +130,7 @@
 
             @if (Cart::instance('saveForLater')->count() > 0)
 
-            <h2>{{ Cart::instance('saveForLater')->count() }} Articulo(s) Guardados</h2>
+            <h2>{{ Cart::instance('saveForLater')->count() }} Artículo(s) Guardados</h2>
 
             <div class="saved-for-later cart-table">
                 @foreach (Cart::instance('saveForLater')->content() as $item)
