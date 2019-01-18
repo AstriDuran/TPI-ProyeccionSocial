@@ -31,7 +31,7 @@
    
       <div id="mensaje" >
           <h4> Hola,{{$usuario->username}}.</h4> 
-          <h4> Su pedido se ha completado satisfactoriamente. A continuacion se muestran los datos proporcionados para la entrega.</h4>
+          <h4> Su pedido se ha completado satisfactoriamente. A continuación se muestran los datos proporcionados para la entrega.</h4>
       </div>
 
        <div class="table-responsive">

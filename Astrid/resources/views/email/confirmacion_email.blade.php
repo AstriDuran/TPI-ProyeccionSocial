@@ -1,2 +1,2 @@
 Hola {{$username}}
-Realizaste un nuevo pedido, ingresando aqui: <a href="{{url('/usuario_pedido/'.$id)}}"> para ver los detalles.</a>
+Realizó un nuevo pedido, ingrese aquí: <a href="{{url('/usuario_pedido/'.$id)}}"> para ver los detalles.</a>

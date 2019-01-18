@@ -1,2 +1,2 @@
 Hola {{$username}}
-Activa tu cuenta ingresando aqui: <a href="{{url('/activacion/'.$code)}}">Activar Cuenta.</a>
+Active su cuenta ingresando aquí: <a href="{{url('/activacion/'.$code)}}">Activar Cuenta.</a>
