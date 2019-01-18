@@ -69,7 +69,7 @@
                             <a href="{{ url('admin/logout') }}" class="btn btn-default btn-block" 
                                 onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
-                                <i class="fa fa-btn fa-sign-out"></i> Logout
+                                <i class="fa fa-btn fa-sign-out"></i> Salir
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">

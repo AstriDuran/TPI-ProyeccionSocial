@@ -18,9 +18,9 @@
 	<div class="col-lg-12">
 	    <div class="row-fluid">
 	    	<div id="logo">
-        		@if(is_file(public_path().'/img/domo_rosa.png'))
+        		@if(is_file(public_path().'/img/logo2.jpg'))
         			<div class="foto">
-            			<img src="{{ public_path()}}/img/domo_rosa.png" height="110px" width="110px" class="img-thumbnail">
+            			<img src="{{ public_path()}}/img/logo2.jpg" height="810px" width="810px" class="img-thumbnail">
         			</div>
         		@else
         			<div class="foto">

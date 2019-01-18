@@ -5,20 +5,20 @@
 
         @if (! request()->is('checkout'))
             <ul>
-                <li><a href="{{ route('shop.index') }}">Store</a></li>
+                <li><a href="{{ route('shop.index') }}">Productos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 
                 <li>
-                    <a href="{{ route('cart.index') }}">Cart <span class="cart-count">
-                        @if (Cart::instance('default')->count() > 0)
+                    <a href="{{ route('cart.index') }}" >Carrito <span  class="cart-count"> 
+                        @if (Cart::instance('default')->count() > 0)  
                         <span>{{ Cart::instance('default')->count() }}</span></span>
-                        @endif
+                        @endif&nbsp;&nbsp;
                     </a>
                 </li>
          
                 @if (Auth::guest())
 
-                    <li><a href="{{ route('login') }}">Login</a></li>
-                    <li><a href="{{ route('register') }}">Register</a></li>
+                    <li><a href="{{ route('login') }}">Iniciar Sesión</a></li>
+                    <li><a href="{{ route('register') }}">Registrar</a></li>
                 
                 @else
 

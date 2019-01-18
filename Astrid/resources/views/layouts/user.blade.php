@@ -69,7 +69,7 @@
                             <a href="{{ url('admin/logout') }}" class="btn btn-default btn-block" 
                                 onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
-                                <i class="fa fa-btn fa-sign-out"></i> Logout
+                                <i class="fa fa-btn fa-sign-out"></i> Salir
                             </a>
 
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -106,7 +106,7 @@
 
                 <li>
                  <a href="{{route('shop.index')}}">
-                   <i class="fa fa-info-circle"></i> <span>Store</span>
+                   <i class="fa fa-info-circle"></i> <span>Productos</span>
                    <small class="label pull-right bg-yellow">IT</small>
                  </a>
                </li>
@@ -131,7 +131,7 @@
                 <ul class="treeview-menu">
                   <li><a href="{{route('perfil.show',Auth::user()->id)}}"><i class="fa fa-circle-o"></i>Ver Datos</a></li>
                   <li><a href="{{route('perfil.edit',Auth::user()->id)}}"><i class="fa fa-circle-o"></i> Editar Datos</a></li>
-                  <li><a href="{{route('usuario.password',Auth::user()->id)}}"><i class="fa fa-circle-o"></i> Cambiar Password</a></li>
+                  <li><a href="{{route('usuario.password',Auth::user()->id)}}"><i class="fa fa-circle-o"></i> Cambiar Contraseña</a></li>
                 </ul>
               </li>
                           

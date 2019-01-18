@@ -37,10 +37,10 @@
        <div class="table-responsive">
            <table>
              <thead style="background-color: #A9D0F5">
-                <th>Telefono</th>
+                <th>Teléfono</th>
                 <th>Fecha Entrega</th>
                 <th>Hora Entrega</th>
-                <th>Direccion de Entrega</th>
+                <th>Dirección de Entrega</th>
                 
                 <th>Ver Detalles</th>
             </thead>

@@ -16,7 +16,7 @@
 				<thead>
 					<th>Id</th>
 					<th>Cliente</th>
-					<th>Telefono</th>
+					<th>Teléfono</th>
 					<th>Fecha Entrega</th>
 					<th>Hora Entrega</th>
 					<th>Estado</th>
