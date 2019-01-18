@@ -23,10 +23,10 @@
                 
                 @if (! request()->is('checkout'))
                 <ul>
-                    <li><a href="{{ route('shop.index') }}">Productos</a></li>
+                    <li><a href="{{ route('shop.index') }}">Productos&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 
                     <li>
-                        <a href="{{ route('cart.index') }}">Carrito <span class="cart-count">
+                        <a href="{{ route('cart.index') }}">Carrito &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="cart-count">
                             @if (Cart::instance('default')->count() > 0)
                             <span>{{ Cart::instance('default')->count() }}</span></span>
                             @endif
