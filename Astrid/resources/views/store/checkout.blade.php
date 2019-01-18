@@ -41,7 +41,7 @@
 
             
                     <div class="form-group">
-                       <label for="direccion" class="col-md-4 control-label">Direccion</label>
+                       <label for="direccion" class="col-md-4 control-label">Dirección</label>
                        <input type="text" name="direccion" required value="{{old('direccion')}}" class="form-control" placeholder="Direccion...">
                     </div>
 
@@ -108,7 +108,7 @@
                     <div class="checkout-totals-left">
                         Subtotal <br>
                         {{-- Decuento (10OFF - 10%) <br> --}}
-                        Tax <br>
+                        IVA <br>
                         <span class="checkout-totals-total">Total</span>
 
                     </div>

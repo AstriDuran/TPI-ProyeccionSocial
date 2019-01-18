@@ -12,7 +12,7 @@
         <div class="container">
             <a href="/">Inicio</a>
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
-            <a href="{{ route('shop.index') }}">Shop</a>
+            <a href="{{ route('shop.index') }}">Comprar</a>
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
             <span>{{ $producto->nombre }}</span>
         </div>
@@ -38,7 +38,7 @@
                 <input type="hidden" name="id" value="{{ $producto->idproducto }}">
                 <input type="hidden" name="name" value="{{ $producto->nombre }}">
                 <input type="hidden" name="price" value="{{ $producto->precio }}">
-                <button type="submit" class="button button-plain">Add to Cart</button>
+                <button type="submit" class="button button-plain">Agregar al Carrito</button>
             </form>
         </div>
     </div> <!-- end product-section -->

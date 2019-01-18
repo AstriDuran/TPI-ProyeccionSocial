@@ -13,7 +13,7 @@
         <div class="container">
             <a href="/inicio">Inicio</a>
             <i class="fa fa-chevron-right breadcrumb-separator"></i>
-            <span>Tienda</span>
+            <span>Productos</span>
         </div>
     </div> <!-- end breadcrumbs -->
 

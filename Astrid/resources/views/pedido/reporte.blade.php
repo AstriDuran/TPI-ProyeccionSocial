@@ -52,7 +52,7 @@
 	    			<table class="table" id="tablanommina">
 			    		<thead style="background-color: #A9D0F5">
 			    			<tr>
-				    		    <th>Telefono</th>
+				    		    <th>Teléfono</th>
 				    		    <th>Fecha Entrega</th>
 				    		    <th>Hora Entrega</th>
 				    		    <th>Direccion de Entrega</th>

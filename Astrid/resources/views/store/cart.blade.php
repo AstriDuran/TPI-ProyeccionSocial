@@ -97,7 +97,7 @@
 
             <div class="cart-totals">
                 <div class="cart-totals-left">
-                    Gracias :)
+                    Gracias 
                 </div>
 
                 <div class="cart-totals-right">
@@ -108,7 +108,7 @@
                     </div>
                     <div class="cart-totals-subtotal">
                         {{ Cart::subtotal() }} <br>
-                        {{ Cart::tax() }} <br>
+                       {{ Cart::tax() }} <br>
                         <span class="cart-totals-total">{{ Cart::total() }}</span>
                     </div>
                 </div>

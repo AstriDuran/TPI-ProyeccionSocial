@@ -18,10 +18,10 @@
         <table class="table table-striped table-bordered table-condensed table-hover" id="tabladetalles" >
             <thead style="background-color: #A9D0F5">
                 <th>Cliente</th>
-                <th>Telefono</th>
+                <th>Teléfono</th>
                 <th>Fecha Entrega</th>
                 <th>Hora Entrega</th>
-                <th>Direcciom</th>
+                <th>Dirección</th>
                 <th>Estado Pedido</th>
                 <th>Monto Total</th>
             </thead>

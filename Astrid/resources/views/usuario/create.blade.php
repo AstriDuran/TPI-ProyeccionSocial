@@ -36,7 +36,7 @@
             </div>
 
             <div class="form-group{{ $errors->has('telefono') ? ' has-error' : '' }}">
-              <label for="telefono" class="col-md-5 control-label">Telefono</label>
+              <label for="telefono" class="col-md-5 control-label">Teléfono</label>
                 <input id="telefono" type="text" class="form-control" name="telefono" value="{{old('telefono')}}" placeholder="Telefono...">
             </div>
         </div>
@@ -54,7 +54,7 @@
             </div>
 
             <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-                <label for="password" class="col-md-5 control-label">Password</label>
+                <label for="password" class="col-md-5 control-label">Contraseña</label>
 
                     <input id="password" type="password" class="form-control" name="password">
 
@@ -66,7 +66,7 @@
             </div>
 
             <div class="form-group{{ $errors->has('password_confirmation') ? ' has-error' : '' }}">
-                <label for="password-confirm" class="col-md-5 control-label">Confirmar Password</label>
+                <label for="password-confirm" class="col-md-5 control-label">Confirmar Contraseña</label>
 
                     <input id="password-confirm" type="password" class="form-control" name="password_confirmation">
 
