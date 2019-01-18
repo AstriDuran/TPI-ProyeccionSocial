@@ -38,7 +38,7 @@
                 <input type="hidden" name="id" value="{{ $producto->idproducto }}">
                 <input type="hidden" name="name" value="{{ $producto->nombre }}">
                 <input type="hidden" name="price" value="{{ $producto->precio }}">
-                <button type="submit" class="button button-plain">Add to Cart</button>
+                <button type="submit" class="button button-plain">Agregar a Carrito</button>
             </form>
         </div>
     </div> <!-- end product-section -->

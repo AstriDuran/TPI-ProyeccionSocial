@@ -41,18 +41,18 @@
 
             
                     <div class="form-group">
-                       <label for="direccion" class="col-md-4 control-label">Direccion</label>
-                       <input type="text" name="direccion" required value="{{old('direccion')}}" class="form-control" placeholder="Direccion...">
+                       <label for="direccion" class="col-md-4 control-label">Dirección</label>
+                       <input type="text" name="direccion" required value="{{old('direccion')}}" class="form-control" placeholder="Dirección...">
                     </div>
 
                     <div class="half-form">
                         <div class="form-group">
-                          <label for="fechaentrega">Fecha de entrega</label>
+                          <label for="fechaentrega">Fecha de entrega:</label>
                           <input type="text" name="fechaentrega" class="tcal form-control" id="fechaentrega" required value="{{old('fechaentrega')}}" class="form-control" placeholder="00/00/0000" >
                         </div>
 
                         <div class="form-group">
-                            <label for="province">Hora de Entrega</label>
+                            <label for="province">Hora de entrega:</label>
                             <input type="time" id="horaentrega" name="horaentrega" required value="{{old('horaentrega')}}">
                         </div>
                     </div> <!-- end half-form -->
@@ -80,7 +80,7 @@
 
 
             <div class="checkout-table-container">
-                <h3>Su Orden</h3> 
+                <h3>Su Orden:</h3> 
 
                 <div class="checkout-table">
                     @foreach (Cart::content() as $item)
@@ -107,8 +107,8 @@
                 <div class="checkout-totals">
                     <div class="checkout-totals-left">
                         Subtotal <br>
-                        {{-- Decuento (10OFF - 10%) <br> --}}
-                        Tax <br>
+                        {{-- Descuento (10OFF - 10%) <br> --}}
+                        IVA (13 %) <br>
                         <span class="checkout-totals-total">Total</span>
 
                     </div>

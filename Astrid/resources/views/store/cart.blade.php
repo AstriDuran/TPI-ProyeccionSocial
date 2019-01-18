@@ -123,7 +123,7 @@
 
                 <h3>No hay articulos...!</h3>
                 <div class="spacer"></div>
-                <a href="{{ route('shop.index') }}" class="button">Ver más articulos</a>
+                <a href="{{ route('shop.index') }}" class="button">Ver más artículos</a>
                 <div class="spacer"></div>
 
             @endif
