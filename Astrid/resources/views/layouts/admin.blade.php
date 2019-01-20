@@ -211,7 +211,7 @@
 
         <footer class="main-footer">
             <div class="pull-right hidden-xs">
-                <b>Version</b> 2.0
+               <!-- <b>Version</b> 2.0 -->
             </div>
             <strong>Copyright &copy; 2018-2022 <a href="https://sites.google.com/ues.edu.sv/liv3theart/contactanos"> {{ config('app.name','Laravel') }} </a> . </strong> All rights reserved.
           
