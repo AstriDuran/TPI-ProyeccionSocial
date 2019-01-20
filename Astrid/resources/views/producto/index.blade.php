@@ -28,7 +28,7 @@
 				<tr>
 					<td>{{ $pro->idproducto}}</td>
 					<td>
-					    <img src="{{asset('img/productos/'.$pro->foto)}}" alt="{{$pro->nombre}}" height="80px" width="80px" class="img-thumbnail">
+					    <img src="{{asset('img/productos/'.$pro->foto)}}" alt="{{$pro->nombre}}" height="40px" width="40px" class="img-thumbnail">
 					</td>
 					<td>{{ $pro->codigo}}</td>
 					<td>{{ $pro->nombre}}</td>

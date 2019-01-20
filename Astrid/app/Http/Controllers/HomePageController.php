@@ -14,10 +14,13 @@ class HomePageController extends Controller
      */
     public function index()
     {
-        $productos = Product::take(8)->inRandomOrder()->get();
-
+        $productos = Product::take(8)->inRandomOrder()
+        ->where('estado','=','1')
+        ->get();
+        
         return view('store.home-page')->with([
             'productos' => $productos
         ]);
     }
+    
 }

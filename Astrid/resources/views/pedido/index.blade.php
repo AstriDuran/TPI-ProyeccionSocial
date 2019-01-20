@@ -30,7 +30,7 @@
 					<td>{{ $ped->fechaentrega}}</td>
 					<td>{{ $ped->horaentrega}}</td>
 					@if($ped->estado=='1') 
-                       <td><p style="color:#239B56";>Estregado</p></td>
+                       <td><p style="color:#239B56";>Entregado</p></td>
                       @else
                          @if($ped->estado=='0')
                            <td><p style="color:red;">Pendiente</p></td>

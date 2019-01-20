@@ -18,7 +18,7 @@
 					<th>Codigo Producto</th>
 					<th>Nombre Producto</th>
 					<th>Descuento</th>
-					<th>Descripcion</th>
+					<th>Descripción</th>
 					<th>Estado</th>
 					<th>Opciones</th>
 				</thead>

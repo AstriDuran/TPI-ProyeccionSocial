@@ -55,7 +55,7 @@
 				    		    <th>Teléfono</th>
 				    		    <th>Fecha Entrega</th>
 				    		    <th>Hora Entrega</th>
-				    		    <th>Direccion de Entrega</th>
+				    		    <th>Dirección de Entrega</th>
 				    		    <th>Estado Pedido</th>
 			    			</tr>
 			    		</thead>

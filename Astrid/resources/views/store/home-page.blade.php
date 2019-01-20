@@ -83,10 +83,10 @@
 
                 {{-- <div class="tabs">
                     <div class="tab">
-                        Características
+                    Featured
                     </div>
                     <div class="tab">
-                        En Descuento
+                    On Sale
                     </div>
                 </div> --}}
 
@@ -100,10 +100,10 @@
                                     <div class="might-like-product-name">{{ $pro->nombre }}</div>
                                     <div class="might-like-product-price">$ {{ $pro->precio }}</div>
                                 </a>
-                            @empty
+                                @empty
                                 <div style="text-align: left">No se encontraron artículos</div>
                             @endforelse
-
+                            
                         </div>
                     </div>
                 </div>
