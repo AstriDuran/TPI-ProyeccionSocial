@@ -86,7 +86,7 @@ class StoreController extends Controller
    {
        $producto = Product::where('idproducto', $id)->firstOrFail();
        $mightAlsoLike = Product::where('idproducto', '!=', $id)->mightAlsoLike()->where('estado','=','1')->get();
-
+        
        return view('store.product')->with([
            'producto' => $producto,
            'mightAlsoLike' => $mightAlsoLike,
