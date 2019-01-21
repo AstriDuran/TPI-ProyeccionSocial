@@ -8,7 +8,7 @@
                 <li><a href="{{ route('shop.index') }}">Productos &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 
                 <li>
-                    <a href="{{ route('cart.index') }}" >Carrito <span  class="cart-count"> 
+                    <a href="{{ route('cart.index') }}" >&nbsp;&nbsp;&nbsp;&nbsp;Carrito <span  class="cart-count"> 
                         @if (Cart::instance('default')->count() > 0)  
                         <span>{{ Cart::instance('default')->count() }}</span></span>
                         @endif&nbsp;&nbsp;
@@ -17,8 +17,8 @@
          
                 @if (Auth::guest())
 
-                    <li><a href="{{ route('login') }}">Iniciar Sesión</a></li>
-                    <li><a href="{{ route('register') }}">Registrar</a></li>
+                    <li><a href="{{ route('login') }}">&nbsp;&nbsp;&nbsp;&nbsp;Iniciar &nbsp;&nbsp;&nbsp;Sesión</a></li>
+                    <li><a href="{{ route('register') }}">&nbsp;&nbsp;&nbsp;&nbsp;Registrar</a></li>
                 
                 @else
 
